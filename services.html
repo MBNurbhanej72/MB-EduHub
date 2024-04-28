@@ -4,8 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to MB EduHub, your gateway to knowledge and skill
+    development. We are dedicated to providing high-quality,
+    accessible education for learners of all ages and backgrounds.">
+    <meta name="keywords" content="MB EduHub">
+    <meta name="robots" content="index, follow">
     <title>MB EduHub</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -23,7 +29,6 @@
 </head>
 
 <body>
-
 
     <!--? ========== Start Navbar Section ========== -->
 
@@ -50,7 +55,7 @@
 
     <!--? ========== Start Course Section ========== -->
 
-    <section class="course-section">
+    <section class="course-section" data-aos="zoom-in">
         <div class="container">
             <h2 class="section-common-heading">Explore Our Courses</h2>
             <p class="section-common-subheading">
@@ -59,7 +64,7 @@
         </div>
 
         <div class="container grid grid-four--cols">
-            <div class="course-div">
+            <div class="course-div" data-aos="zoom-in" data-aos-delay="300">
                 <div class="icon">
                     <i class="fa-solid fa-laptop-code"></i>
                 </div>
@@ -69,7 +74,7 @@
                 </p>
             </div>
 
-            <div class="course-div">
+            <div class="course-div" data-aos="zoom-in" data-aos-delay="300">
                 <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
                 <h3 class="section-common--title">Python</h3>
                 <p>
@@ -77,19 +82,19 @@
                 </p>
             </div>
 
-            <div class="course-div">
+            <div class="course-div" data-aos="zoom-in" data-aos-delay="300">
                 <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
                 <h3 class="section-common--title">C++ Development</h3>
                 <p>Powerful, efficient coding language for software development.</p>
             </div>
 
-            <div class="course-div">
+            <div class="course-div" data-aos="zoom-in" data-aos-delay="300">
                 <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
                 <h3 class="section-common--title">Java Development</h3>
                 <p>Cross-platform application development with Java programming.</p>
             </div>
 
-            <div class="course-div">
+            <div class="course-div" data-aos="zoom-in" data-aos-delay="300">
                 <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
                 <h3 class="section-common--title">SQL Development</h3>
                 <p>
@@ -97,13 +102,13 @@
                 </p>
             </div>
 
-            <div class="course-div">
+            <div class="course-div" data-aos="zoom-in" data-aos-delay="300">
                 <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
                 <h3 class="section-common--title">HTML Development</h3>
                 <p>Web content structure with essential markup language.</p>
             </div>
 
-            <div class="course-div">
+            <div class="course-div" data-aos="zoom-in" data-aos-delay="300">
                 <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
                 <h3 class="section-common--title">CSS Development</h3>
                 <p>Styling web elements for visually appealing websites.</p>
@@ -119,7 +124,7 @@
     <!--? ========== Start Contact Home Section ========== -->
 
     <section class="contact-homepage--section" id="contact-homepage--section">
-        <div class="container grid grid-two--cols">
+        <div class="container grid grid-two--cols" data-aos="fade-up">
             <div class="contact-content">
                 <h2 class="contact-title">Let's revolutionize the way you study</h2>
                 <p>Join our free bootcamps to know us better</p>
@@ -130,18 +135,17 @@
                 </div>
             </div>
             <div class="contact-image">
-                <img src="images/main.png" alt="A Guy Doing Coding">
+                <img src="images/main.webp" alt="A Guy Doing Coding">
             </div>
         </div>
     </section>
 
     <!--? ========== End Contact Home Section ========== -->
 
-
     <!--? ========== Start Footer Section ========== -->
 
     <footer>
-        <div class="container grid grid-three--cols">
+        <div class="container grid grid-three--cols" data-aos="fade-up">
             <div class="footer-1--div">
                 <div class="logo-brand">
                     <a href="index.html" class="footer-subheading">MB EduHub</a>
@@ -189,6 +193,10 @@
 
     <!--? ========== End Footer Section ========== -->
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

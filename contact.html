@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to MB EduHub, your gateway to knowledge and skill
+    development. We are dedicated to providing high-quality,
+    accessible education for learners of all ages and backgrounds.">
+    <meta name="keywords" content="MB EduHub">
+    <meta name="robots" content="index, follow">
+    <title>MB EduHub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MB EduHub</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-<link rel="manifest" href="images/favicon/site.webmanifest">
-<link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
 
-
-<style>
-    footer {
-        padding-top: 0;
-    }
-</style>
+    <style>
+        footer {
+            padding-top: 0;
+        }
+    </style>
 
 </head>
 
@@ -57,10 +63,9 @@
     <!--? ========== End Navbar Section ========== -->
 
 
-
     <!--? ========== Start Contact Us Section ========== -->
 
-    <section class="contact-section">
+    <section class="contact-section" data-aos="zoom-in">
         <div class="container">
             <h2 class="section-common-heading">Contact Us</h2>
             <p class="section-common-subheading">
@@ -68,7 +73,7 @@
             </p>
         </div>
 
-        <div class="container grid grid-two--cols">
+        <div class="container grid grid-two--cols" data-aos="zoom-in" data-aos-delay="400">
             <div class="contact-content">
 
                 <!-- https://formspree.io/forms -->
@@ -126,7 +131,7 @@
     <!--? ========== Start Footer Section ========== -->
 
     <footer>
-        <div class="container grid grid-three--cols">
+        <div class="container grid grid-three--cols" data-aos="fade-up">
             <div class="footer-1--div">
                 <div class="logo-brand">
                     <a href="index.html" class="footer-subheading">MB EduHub</a>
@@ -174,6 +179,10 @@
 
     <!--? ========== End Footer Section ========== -->
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

@@ -10,6 +10,7 @@
 html {
   font-size: 62.5%;
   /* 1rem = 10px */
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -1125,6 +1126,10 @@ footer .grid {
 
   footer .grid-three--cols {
     gap: 3rem;
+  }
+
+  .contact-content .grid {
+    gap: 3.4rem;
   }
 }
 

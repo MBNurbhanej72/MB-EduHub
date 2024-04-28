@@ -4,8 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to MB EduHub, your gateway to knowledge and skill
+    development. We are dedicated to providing high-quality,
+    accessible education for learners of all ages and backgrounds.">
+    <meta name="keywords" content="MB EduHub">
+    <meta name="robots" content="index, follow">
     <title>MB EduHub</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -51,7 +57,7 @@
 
     <!--? ========== Start Blog Section ========== -->
 
-    <section class="blog-section">
+    <section class="blog-section" data-aos="zoom-in">
         <div class="container">
             <h2 class="section-common-heading">Explore Our Blog</h2>
             <p class="section-common-subheading">
@@ -60,7 +66,7 @@
             </p>
         </div>
 
-        <div class="container grid grid-four--cols">
+        <div class="container grid grid-four--cols" data-aos="zoom-in" data-aos-delay="300">
             <div class="blog">
                 <figure>
                     <img src="images/typing.webp" alt="A Guy Typing Code">
@@ -132,7 +138,7 @@
     <!--? ========== Start Contact Home Section ========== -->
 
     <section class="contact-homepage--section" id="contact-homepage--section">
-        <div class="container grid grid-two--cols">
+        <div class="container grid grid-two--cols" data-aos="fade-up">
             <div class="contact-content">
                 <h2 class="contact-title">Let's revolutionize the way you study</h2>
                 <p>Join our free bootcamps to know us better</p>
@@ -143,7 +149,7 @@
                 </div>
             </div>
             <div class="contact-image">
-                <img src="images/main.png" alt="A Guy Doing Coding">
+                <img src="images/main.webp" alt="A Guy Doing Coding">
             </div>
         </div>
     </section>
@@ -153,7 +159,7 @@
     <!--? ========== Start Footer Section ========== -->
 
     <footer>
-        <div class="container grid grid-three--cols">
+        <div class="container grid grid-three--cols" data-aos="fade-up">
             <div class="footer-1--div">
                 <div class="logo-brand">
                     <a href="index.html" class="footer-subheading">MB EduHub</a>
@@ -201,6 +207,10 @@
 
     <!--? ========== End Footer Section ========== -->
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
